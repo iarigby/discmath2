@@ -47,7 +47,7 @@ public class Controller implements Initializable {
 
     void doSomething(KeyCode code) {
         switch (code) {
-            case SPACE:
+            case SPACE:case UP: case DOWN:
                 flip(); break;
             case LEFT:
                 showCard(-1); break;

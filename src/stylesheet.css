@@ -1,8 +1,31 @@
 #box {
     -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-spacing: 15;
 }
 
+#topics, #subtopics {
+    -fx-spacing: 15;
+}
 #question {
     -fx-font-size: 25;
     -fx-font-family: sans-serif;
+}
+
+#off {
+    -fx-background-color: aquamarine;
+    -fx-text-fill: indigo;
+}
+#on {
+    -fx-background-color: indigo;
+    -fx-text-fill: aquamarine;
+}
+
+#topics {
+
+}
+
+#topicSelector {
+    -fx-text-fill: indigo;
+    -fx-font-weight: bold;
 }

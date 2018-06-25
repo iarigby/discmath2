@@ -1,0 +1,14 @@
+define coding, lossless and lossy coding
+define character encoding
+state remarks about lossless character encoding
+define prefix, suffix, infix
+define prefix-free set
+define trivial and proper prefix/suffix/infix
+define prefix, fixed-length, comma-separated codes
+state the theorem about main property of lossless codes
+prove that prefix codes are lossless
+state the theorem about connection between fixed length and prefix codes
+prove that every fixed-length code is a prefix code
+prove that comma separated codes are prefix codes
+state the theorem about Kraft-Mcmillan inequality
+state the theorem about converse of Kraft-McMillan inequality

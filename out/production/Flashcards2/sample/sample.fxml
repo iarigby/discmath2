@@ -13,7 +13,7 @@
             <HBox fx:id = "subtopics" />
         </VBox>
         <Label fx:id = "question"/>
-        <VBox fx:id="box" prefHeight="450" prefWidth="750" maxWidth="750" maxHeight="450" minHeight="450" minWidth="750">
+        <VBox fx:id="box" prefHeight="450" prefWidth="800" maxWidth="800" maxHeight="450" minHeight="450" minWidth="800">
             <ImageView fx:id="answer"/>
         </VBox>
         <HBox alignment="center">

@@ -17,7 +17,7 @@ public class Main extends Application {
         Parent root = loader.load();
         primaryStage.setTitle("Discrete Math flashcards");
         primaryStage.getIcons().add(new Image("file:icon.png"));
-        primaryStage.setScene(new Scene(root, 800, 700));
+        primaryStage.setScene(new Scene(root, 850, 700));
         primaryStage.getScene().setOnKeyPressed(
                e -> controller.doSomething(e.getCode())
         );

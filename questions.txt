@@ -1,0 +1,9 @@
+Define Information
+Define Frequency, relative frequency
+Define Distribution
+State Theorem about self-information, unit of information
+Define Entropy
+Define Convex function
+State Jensen-inequality theorem
+State theorem about upper bound of entropy
+Prove the theorem about upper bound of entropy

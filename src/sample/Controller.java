@@ -37,7 +37,7 @@ public class Controller implements Initializable {
             }
             size = questions.size();
             for (int i = 1; i <= size; i++) {
-                cards.add(new Image("file:"+i+".PNG"));
+                cards.add(new Image("file:images/"+i+".PNG"));
             }
             showCard(0);
         } catch (Exception e) {

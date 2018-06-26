@@ -8,7 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/10.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/11.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/12.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/13.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/14.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/15.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/16.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/17.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/18.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/19.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/2.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/20.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/21.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/22.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/23.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/3.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/4.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/5.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/6.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/7.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/8.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/10.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/11.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/12.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/2.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/3.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/4.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/5.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/6.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/7.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/8.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/error_detection_correction/questions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/coding/optimal_codes/questions.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Subtopic.java" afterPath="$PROJECT_DIR$/src/sample/Subtopic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Topic.java" afterPath="$PROJECT_DIR$/src/sample/Topic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topics/Groups/definitions/questions.txt" afterPath="$PROJECT_DIR$/topics/Groups/definitions/questions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topics/Groups/subgroups/questions.txt" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/questions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topics/graphs/subgraphs/questions.txt" afterPath="$PROJECT_DIR$/topics/graphs/subgraphs/questions.txt" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +125,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.64195055">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-73">
-                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <state relative-caret-position="399">
+                  <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -94,11 +137,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
-                  <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+                <state relative-caret-position="397">
+                  <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#4712#4713#0" expanded="true" />
@@ -111,8 +154,8 @@
           <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/Topic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state relative-caret-position="210">
+                  <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -121,8 +164,8 @@
           <file leaf-file-name="Subtopic.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/Subtopic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+                <state relative-caret-position="462">
+                  <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
                   <folding />
                 </state>
               </provider>
@@ -181,12 +224,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/sample/Topics.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Subtopic.java" />
         <option value="$PROJECT_DIR$/src/sample/Topic.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
       </list>
     </option>
   </component>
@@ -748,7 +791,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1529928649105" duration="14878000" />
-      <workItem from="1530009198667" duration="4799000" />
+      <workItem from="1530009198667" duration="8095000" />
     </task>
     <task id="LOCAL-00001" summary="added flashcards for source coding&#10;added feature: review mode&#10;added feature: select topics/subtopics">
       <created>1529945127371</created>
@@ -778,11 +821,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530033309934</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed npe">
+      <created>1530033320713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530033320713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20979000" />
+    <option name="totallyTimeSpent" value="24275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1102" extended-state="0" />
@@ -796,7 +846,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49616858" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5203863" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50429183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4623656" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -963,40 +1013,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#4766#4767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Subtopic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="462">
+          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4712#4713#0" expanded="true" />
-            <element signature="e#4766#4767#0" expanded="true" />
           </folding>
         </state>
       </provider>

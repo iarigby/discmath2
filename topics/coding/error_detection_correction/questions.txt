@@ -1,0 +1,23 @@
+give an example of a parity bit
+give an example of 2d parity bit
+give definition for t-error detecting code
+give an example of t-error detecting codes
+define hamming distance
+give example for hamming distance
+state theorem about properties of hamming distance
+state proof about properties of hamming distance
+define code distance
+give example of code distance
+define minimum distance decoding
+define t-error detecting code
+give remark about t-error detecting code
+state theorem about singleton bound
+prove theorem about singleton bound
+define MDS maximal distance separable code
+give example for repetition code
+give theorem about hamming bound
+prove theorem about hamming bound
+define perfect code
+give example of not perfect code
+explain error detection as a function of distance
+explain error correction as a function of distance

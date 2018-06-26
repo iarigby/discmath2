@@ -12,13 +12,16 @@ public enum Subtopic {
     //groups
     DEFINITIONS("Definitions"),
     SUBGROUPS("Subgroups, generated subgroups"),
-    CYCLYC_GROUPS("Cyclic Groups"),
+    CYCLIC_GROUPS("Cyclic Groups"),
     COSETS("Cosets"),
     NORMAL_SUBGROUPS("Normal subgroups"),
 
     //coding
     INTRO("Introduction to Information Theory"),
-    SOURCE_CODING("Source Coding");
+    SOURCE_CODING("Source Coding"),
+    OPTIMAL_CODES("Optimal codes"),
+    ERROR_DETECTION_CORRECTION("Error Detection/Correction")
+    ;
 
     private String name;
 

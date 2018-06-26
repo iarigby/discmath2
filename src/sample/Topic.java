@@ -7,8 +7,8 @@ import static sample.Subtopic.*;
  */
 public enum Topic {
     GRAPHS(new Subtopic[]{BASIC_DEFINITIONS, TREES, SPECIAL_WALKS}),
-    GROUPS(new Subtopic[]{DEFINITIONS, SUBGROUPS, CYCLYC_GROUPS, COSETS, NORMAL_SUBGROUPS}),
-    CODING(new Subtopic[]{INTRO, SOURCE_CODING});
+    GROUPS(new Subtopic[]{DEFINITIONS, SUBGROUPS, CYCLIC_GROUPS, COSETS, NORMAL_SUBGROUPS}),
+    CODING(new Subtopic[]{INTRO, SOURCE_CODING, OPTIMAL_CODES, ERROR_DETECTION_CORRECTION});
 
     private Subtopic[] subtopics;
     Topic(Subtopic[] subtopics) {

@@ -1,0 +1,14 @@
+Define a subgraph
+Define an induced subgraph
+Define a complement graph
+Define deletion of edges
+Define deletion of vertices
+Define a walk
+Define a trail
+Define paths and cycles
+Define a distance
+define a diameter
+State theorems about connection between walks/paths/trails/cycles
+state a theorem about Walk to path
+Prove the theorem about walk to path
+Prove that every closed trail of at least one length is the union of cycles with disjoint edges

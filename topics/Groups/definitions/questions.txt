@@ -4,7 +4,7 @@ Define a monoid
 define a group
 define an abelian group
 define left and right identities
-prove that identities are unique
+State and prove that identities are unique
 define left and right inverse
 state and prove the theorem about uniqueness of the inverse
 Define structure preserving maps

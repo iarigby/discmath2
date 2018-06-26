@@ -8,108 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/questions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/10.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/11.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/10.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/11.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/12.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/13.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/14.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/15.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/16.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/17.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/18.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/19.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/20.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/21.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/22.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/10.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/11.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/12.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/13.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/10.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/11.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/12.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/13.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/14.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/definitions_homomorphisms_character/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/10.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/11.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/12.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/13.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/14.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/15.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/5.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/6.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/7.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/8.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Rings/subrings_ideals/9.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cosets/questions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/cyclic_groups/questions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/definitions/questions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/normal_subgroups/questions.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topics/Groups/subgroups/questions.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Subtopic.java" afterPath="$PROJECT_DIR$/src/sample/Subtopic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Topic.java" afterPath="$PROJECT_DIR$/src/sample/Topic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topics/graphs/special_walks/questions.txt" afterPath="$PROJECT_DIR$/topics/graphs/special_walks/questions.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,7 +86,7 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
+                <state relative-caret-position="-73">
                   <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -195,24 +95,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+                <state relative-caret-position="134">
+                  <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
                   <folding>
-                    <element signature="e#4710#4711#0" expanded="true" />
-                    <element signature="e#4764#4765#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#4712#4713#0" expanded="true" />
+                    <element signature="e#4766#4767#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Topic.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sample/Topic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state relative-caret-position="273">
+                  <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -282,11 +183,11 @@
         <option value="$PROJECT_DIR$/src/sample/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/sample/Topics.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Subtopic.java" />
         <option value="$PROJECT_DIR$/src/sample/Topic.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
       </list>
     </option>
   </component>
@@ -848,7 +749,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1529928649105" duration="14878000" />
-      <workItem from="1530009198667" duration="4699000" />
+      <workItem from="1530009198667" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="added flashcards for source coding&#10;added feature: review mode&#10;added feature: select topics/subtopics">
       <created>1529945127371</created>
@@ -864,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530028609118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added flashcards for graphs (definitions, trees), groups(all)">
+      <created>1530033228357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530033228357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20879000" />
+    <option name="totallyTimeSpent" value="20961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1102" extended-state="0" />
@@ -881,7 +789,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.49616858" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5203863" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5203863" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50429183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4623656" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -921,7 +829,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="added flashcards for source coding&#10;added feature: review mode&#10;added feature: select topics/subtopics" />
     <MESSAGE value="added flashcards for graphs (definitions, trees)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flashcards for graphs (definitions, trees)" />
+    <MESSAGE value="added flashcards for graphs (definitions, trees), groups(all)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flashcards for graphs (definitions, trees), groups(all)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,8 +858,9 @@
         <state relative-caret-position="2961">
           <caret line="141" column="28" lean-forward="false" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="28" />
           <folding>
-            <element signature="e#4710#4711#0" expanded="true" />
-            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#4766#4767#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1016,8 +926,9 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#4710#4711#0" expanded="true" />
-            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#4766#4767#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1026,16 +937,6 @@
     <entry file="jar://$PROJECT_DIR$/../tools/jdk_1.8/javafx-src.zip!/javafx/scene/control/Labeled.java" />
     <entry file="jar://$PROJECT_DIR$/../tools/jdk_1.8/javafx-src.zip!/javafx/scene/layout/Background.java" />
     <entry file="jar://$PROJECT_DIR$/../tools/jdk_1.8/javafx-src.zip!/javafx/scene/layout/Region.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1055,17 +956,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#4710#4711#0" expanded="true" />
-            <element signature="e#4764#4765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Subtopic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -1076,9 +966,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4712#4713#0" expanded="true" />
+            <element signature="e#4766#4767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

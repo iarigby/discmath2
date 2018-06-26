@@ -53,7 +53,7 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle arg1) {
-        refresh.setOnAction(e -> refresh());
+        //refresh.setOnAction(e -> refresh());
         review.setOnAction(e -> toggleReviewMode());
         addTopics();
         toggleReviewMode();

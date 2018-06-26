@@ -1,0 +1,13 @@
+define an euclidean domain
+give an example of an euclidean domain
+state theorem about divisibility and phi
+state theorem about divisibility and phi
+state theorem about extended euclidean algorithm
+state theorem about irreducable elements in Euclidean domain
+prove theorem about irreducable elements in Euclidean domain
+state theorem about Euclidean domains and UFDs
+prove theorem about Euclidean domains and UFDs
+define field of fractions
+give remarks about field of fractions
+define skew field, field
+give example of fields

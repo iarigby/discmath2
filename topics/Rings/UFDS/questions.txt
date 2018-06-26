@@ -1,0 +1,10 @@
+Define UFD
+define canonical factorization
+define determining divisors, gcd and lcm
+give an example of UFD
+define prime and irreducible elements
+state theorem about reducibility of a prime
+prove theorem about reducability of a prime
+state theorem about irreducible element in a UFD
+prove theorem about irreducible element in a UFD
+give an example of non-ufd

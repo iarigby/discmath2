@@ -16,6 +16,12 @@ public enum Subtopic {
     COSETS("Cosets"),
     NORMAL_SUBGROUPS("Normal subgroups"),
 
+    //Rings
+    definitions_homomorphisms_character("definitions, homomorphisms, character"),
+    SUBRINGS_IDEALS("Subrings and Ideals"),
+    UFDS("UFDs"),
+    EUCLIDEAN_DOMAINS("Euclidean Domains"),
+
     //coding
     INTRO("Introduction to Information Theory"),
     SOURCE_CODING("Source Coding"),

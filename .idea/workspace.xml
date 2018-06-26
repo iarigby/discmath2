@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -749,7 +748,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1529928649105" duration="14878000" />
-      <workItem from="1530009198667" duration="4781000" />
+      <workItem from="1530009198667" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="added flashcards for source coding&#10;added feature: review mode&#10;added feature: select topics/subtopics">
       <created>1529945127371</created>
@@ -772,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530033228357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed npe">
+      <created>1530033309933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530033309934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20961000" />
+    <option name="totallyTimeSpent" value="20979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1102" extended-state="0" />
@@ -830,7 +836,8 @@
     <MESSAGE value="added flashcards for source coding&#10;added feature: review mode&#10;added feature: select topics/subtopics" />
     <MESSAGE value="added flashcards for graphs (definitions, trees)" />
     <MESSAGE value="added flashcards for graphs (definitions, trees), groups(all)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flashcards for graphs (definitions, trees), groups(all)" />
+    <MESSAGE value="fixed npe" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed npe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

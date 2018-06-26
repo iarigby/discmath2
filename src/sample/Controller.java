@@ -36,6 +36,9 @@ public class Controller implements Initializable {
     @FXML
     private HBox subtopics;
 
+    @FXML
+    private Button refresh;
+
     private boolean answerShown = false;
     private ArrayList<Image> cards = new ArrayList<>();
     private ArrayList<String> questions = new ArrayList<>();
@@ -50,6 +53,16 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle arg1) {
+        refresh.setOnAction(e -> refresh());
+        review.setOnAction(e -> toggleReviewMode());
+        addTopics();
+        toggleReviewMode();
+    }
+
+    private void refresh() {
+        topics.getChildren().clear();
+        subtopics.getChildren().clear();
+        reset();
         addTopics();
         toggleReviewMode();
     }

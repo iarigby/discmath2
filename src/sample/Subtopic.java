@@ -4,7 +4,14 @@ package sample;
  * Created by ia on 2018. 06. 25..
  */
 public enum Subtopic {
-    INTRO("Introduction to Information Theory"), SOURCE_CODING("Source Coding");
+    //graphs
+    BASIC_DEFINITIONS("Basic Definitions"),
+    TREES("Trees"),
+    SPECIAL_WALKS("Special Walks"),
+
+    //coding
+    INTRO("Introduction to Information Theory"),
+    SOURCE_CODING("Source Coding");
 
     private String name;
 

@@ -1,0 +1,15 @@
+Define an undirected graph
+Define connection and endpoints
+Define isolated vertex
+Define empty graph
+Define adjacency of edges
+Define adjacency of vertices
+Define loops, parallel edges
+Define simple graph, multigraph
+Define finite and infinite graph
+Define a function on a set of vertices
+Define a degree of a vertex
+Define regular, n-regular graphs
+State the Equivalent definition of isolated vertices
+Define Even and Odd vertices
+State and prove the theorem about the number of edges and the sum of degrees, state the corollary

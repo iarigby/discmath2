@@ -1,0 +1,20 @@
+Define connectedness
+Define components
+State equivalent definition of a connected graph
+Define a tree
+state Equivalent definitions of trees
+Prove 1 <=> 2 <=> 3 from the equivalent definitions of trees
+Prove 1 <=> 4 from the equivalent definitions of trees
+State Theorem about two vertices with degree one
+Prove the theorem about two vertices with degree one
+State theorem with alternative definitions of trees
+Define a spanning tree
+State and prove the theorem about the existence of spanning trees
+State the theorem about the number of cycles
+Prove the theorem about the number of cycles
+Define separating two vertices (and remark)
+Define separating sets and remark about minimal set
+State the theorem about the number of separating sets
+Prove the theorem about the number of separating sets
+Define a forest (+ remarks)
+Define a spanning forest (+ remarks)

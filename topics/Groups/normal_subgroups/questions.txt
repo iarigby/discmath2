@@ -1,0 +1,13 @@
+define a normal subgroup
+state properties of normal subgroups
+give equivalent definitions for normal subgroups
+prove equivalent definitions for normal subgroups, give corollary
+Define operation compatibility with partitioning
+state theorem about cosets of normal subgroups
+state corollary about cosets of normal subgroups
+Define Quotient group
+Define Kernel of a homomorphism
+state Homomorphism theorem
+define cartesian product of groups
+state Fundamental theorem of finite Abelian groups
+state Cayley's theorem

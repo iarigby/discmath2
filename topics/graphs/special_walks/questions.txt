@@ -1,0 +1,10 @@
+Define an Euler trail
+Define parity of degrees in graph with Euler trails
+State the theorem about Decomposition of finite connected graphs
+Prove the theorem about Decomposition of finite connected graphs for s = 0
+Prove the theorem about Decomposition of finite connected graphs for s > 0
+Define a Hamilton path
+Define a Hamiltonian cycle, Hamiltonian graph
+State Ore's theorem
+State Dirac's theorem
+Prove Dirac's theorem

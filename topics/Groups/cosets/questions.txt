@@ -1,0 +1,8 @@
+Define cosets
+prove that ~R and ~L are equivalence relations
+state propositions about forms of cosets
+define index
+state Lagrange theorem
+prove Lagrange theorem
+state corollaries about lagrange theorem
+state theorem about group with prime order

@@ -1,0 +1,21 @@
+Define a groupoid
+Define a semigroup
+Define a monoid
+define a group
+define an abelian group
+define left and right identities
+prove that identities are unique
+define left and right inverse
+state and prove the theorem about uniqueness of the inverse
+Define structure preserving maps
+give names of structure preserving maps
+give examples of structure preserving maps
+state theorem about composition of homomorphisms
+prove the theorem about composition of homomorphisms
+State and prove the theorem about inverse of homomorphisms
+Give statements for semigroup
+Prove statements about semigroup
+State equivalent definitions of a group
+prove equivalent definitions of a group
+State the simplification rule
+prove the simplification rule

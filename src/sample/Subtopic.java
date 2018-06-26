@@ -9,6 +9,13 @@ public enum Subtopic {
     TREES("Trees"),
     SPECIAL_WALKS("Special Walks"),
 
+    //groups
+    DEFINITIONS("Definitions"),
+    SUBGROUPS("Subgroups, generated subgroups"),
+    CYCLYC_GROUPS("Cyclic Groups"),
+    COSETS("Cosets"),
+    NORMAL_SUBGROUPS("Normal subgroups"),
+
     //coding
     INTRO("Introduction to Information Theory"),
     SOURCE_CODING("Source Coding");

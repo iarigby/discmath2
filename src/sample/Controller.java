@@ -12,7 +12,6 @@ import javafx.scene.layout.VBox;
 
 import java.io.File;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
@@ -39,26 +38,23 @@ public class Controller implements Initializable {
     @FXML
     private Button refresh;
 
+    private Flashcards<Image> flashcards;
+
     private boolean answerShown = false;
-    private ArrayList<Image> cards = new ArrayList<>();
-    private ArrayList<String> questions = new ArrayList<>();
-    private ArrayList<Integer> queue = new ArrayList<>();
-    private int reviewLeft = 1;
-    private int currentCard = 0;
-    private int size;
-    private boolean reviewMode = true;
     private Button currentTopic;
     private Button currentSubtopic;
     private Topic topic;
 
     @Override
     public void initialize(URL url, ResourceBundle arg1) {
+        flashcards = new Flashcards<>();
         //refresh.setOnAction(e -> refresh());
         review.setOnAction(e -> toggleReviewMode());
         addTopics();
         toggleReviewMode();
     }
 
+    /*
     private void refresh() {
         topics.getChildren().clear();
         subtopics.getChildren().clear();
@@ -66,6 +62,7 @@ public class Controller implements Initializable {
         addTopics();
         toggleReviewMode();
     }
+    */
 
     private void addTopics() {
         for (Topic topic : Topic.values()) {
@@ -116,12 +113,7 @@ public class Controller implements Initializable {
     private void reset() {
         question.setText("");
 //        answer.setVisible(false);
-        questions.clear();
-        cards.clear();
-        queue.clear();
-        reviewLeft = 1;
-        currentCard = 0;
-        reviewMode = true;
+        flashcards.reset();
         toggleReviewMode();
     }
 
@@ -130,13 +122,13 @@ public class Controller implements Initializable {
         try {
             Scanner scanner = new Scanner(new File("topics/" + path + "/questions.txt"));
             while (scanner.hasNext()) {
-                questions.add(scanner.nextLine());
+                flashcards.addQuestion(new Question(scanner.nextLine()));
             }
-            size = questions.size();
-            for (int i = 1; i <= size; i++) {
-                cards.add(new Image("file:topics/" + path + "/"+i+".PNG"));
+            for (int i = 1; i <= flashcards.getSize(); i++) {
+                //todo refactor further
+                flashcards.addAnswer(new Image("file:topics/" + path + "/"+i+".PNG"));
             }
-            queue.add(0);
+            flashcards.addToQueue();
             showCard(0);
         } catch (Exception e) {
             e.printStackTrace();
@@ -162,42 +154,15 @@ public class Controller implements Initializable {
     }
 
     private void showCard(int i) {
-        int nextCard = getNextIndex(i);
-        question.setText(nextCard + 1 + ". " + questions.get(nextCard));
+        question.setText(flashcards.getNextQuestion(i));
         answerShown = true;
         flip();
-        answer.setImage(cards.get(nextCard));
-    }
-
-    private int getIndex(int i) {
-        return (size + currentCard + i) % size;
-    }
-
-    private int getNextIndex(int i) {
-        if (reviewMode) {
-            if (reviewLeft <= 0) {
-                currentCard = getIndex(i);
-                reviewLeft = 0;
-                queue.add(currentCard);
-                for (int k = 1; k < 4
-                        && currentCard - k >= 0; k++) {
-                    queue.add(currentCard - k);
-                    reviewLeft++;
-                }
-            } else {
-                reviewLeft--;
-            }
-            return queue.remove(0);
-        } else {
-            currentCard = getIndex(i);
-            return currentCard;
-        }
+        answer.setImage(flashcards.getNextAnswer(i));
     }
 
     @FXML
     void toggleReviewMode() {
-        reviewMode = !reviewMode;
-        if (reviewMode) {
+        if (flashcards.toggleReview()) {
             review.setText("On");
             review.setId("on");
         } else {

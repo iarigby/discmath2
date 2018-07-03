@@ -1,32 +1,49 @@
 package sample;
 
 import java.util.ArrayList;
+import java.util.Random;
+
 
 class Flashcards<AnswerType> {
 
-    private ArrayList<AnswerType> answers = new ArrayList<>();
-    private ArrayList<Question> questions = new ArrayList<>();
+
+    private static final int REVIEW_NUMBER = 2;
+
+    private ArrayList<Card<AnswerType>> cards = new ArrayList<>();
     private ArrayList<Integer> queue = new ArrayList<>();
     private int reviewLeft = 1;
     private int currentCard = 0;
     private boolean reviewMode = true;
-
+    private boolean randomMode = false;
+    private ArrayList<QuestionType> filteredTypes = new ArrayList<>();
+    private Random random = new Random();
 
     private int getIndex(int i) {
         return (getSize() + currentCard + i) % getSize();
     }
 
-    int getSize() {
-       return questions.size();
+    boolean toggleRandom() {
+        randomMode = !randomMode;
+        return randomMode;
     }
 
+    int getSize() {
+       return cards.size();
+    }
+
+    void skipCurrent() {
+        cards.get(currentCard).skip = true;
+    }
     private int getNextIndex(int i) {
+        if (randomMode) {
+            i = random.nextInt(getSize());
+        }
         if (reviewMode) {
             if (reviewLeft <= 0) {
                 currentCard = getIndex(i);
                 reviewLeft = 0;
                 queue.add(currentCard);
-                for (int k = 1; k < 4
+                for (int k = 1; k < REVIEW_NUMBER
                         && currentCard - k >= 0; k++) {
                     queue.add(currentCard - k);
                     reviewLeft++;
@@ -41,36 +58,42 @@ class Flashcards<AnswerType> {
         }
     }
 
+    boolean toggleType(QuestionType type) {
+        if (!filteredTypes.remove(type)) {
+            filteredTypes.add(type);
+            return false;
+        }
+        return true;
+    }
+
+    boolean isFiltered(QuestionType type) {
+        return filteredTypes.contains(type);
+    }
+
     // returns value after changing
     boolean toggleReview() {
         reviewMode = !reviewMode;
         return reviewMode;
     }
 
-    String getNextQuestion(int i) {
-        int nextCard = getNextIndex(i);
-        return nextCard + 1 + ". " + questions.get(nextCard);
+    Card getNextCard(int i) {
+        return cards.get(getNextIndex(i));
     }
 
-    AnswerType getNextAnswer (int i) {
-        return answers.get(getNextIndex(i));
+    int getCurrentCard() {
+        return currentCard;
     }
 
     void reset() {
-        questions.clear();
-        answers.clear();
+        cards.clear();
         queue.clear();
         reviewLeft = 1;
         currentCard = 0;
         reviewMode = true;
     }
 
-    void addQuestion(Question question) {
-        questions.add(question);
-    }
-
-    void addAnswer(AnswerType answer) {
-        answers.add(answer);
+    void addCard(Question question, AnswerType answer) {
+        cards.add(new Card<>(question, answer));
     }
 
     //todo this smells

@@ -12,6 +12,7 @@ import javafx.scene.layout.VBox;
 
 import java.io.File;
 import java.net.URL;
+import java.util.Random;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
@@ -24,7 +25,7 @@ public class Controller implements Initializable {
     private Label question;
 
     @FXML
-    private Button review;
+    private Button randomButton, skipButton, review, definitions, theorems, proofs;
 
     @FXML
     private VBox box;
@@ -45,13 +46,26 @@ public class Controller implements Initializable {
     private Button currentSubtopic;
     private Topic topic;
 
+
     @Override
     public void initialize(URL url, ResourceBundle arg1) {
         flashcards = new Flashcards<>();
         //refresh.setOnAction(e -> refresh());
+        definitions.setOnAction(e -> toggleButton(QuestionType.DEFINITION, definitions));
+        theorems.setOnAction(e -> toggleButton(QuestionType.THEOREM, theorems));
+        proofs.setOnAction(e -> toggleButton(QuestionType.PROOF, proofs));
         review.setOnAction(e -> toggleReviewMode());
+        skipButton.setOnAction(e -> skipCard());
+        randomButton.setOnAction(e -> toggleButton(flashcards.toggleRandom(), randomButton));
         addTopics();
         toggleReviewMode();
+    }
+
+
+
+    private void skipCard() {
+        flashcards.skipCurrent();
+        showCard(1);
     }
 
     /*
@@ -121,12 +135,12 @@ public class Controller implements Initializable {
         reset();
         try {
             Scanner scanner = new Scanner(new File("topics/" + path + "/questions.txt"));
+            int i = 1;
             while (scanner.hasNext()) {
-                flashcards.addQuestion(new Question(scanner.nextLine()));
-            }
-            for (int i = 1; i <= flashcards.getSize(); i++) {
-                //todo refactor further
-                flashcards.addAnswer(new Image("file:topics/" + path + "/"+i+".PNG"));
+                flashcards.addCard(
+                        new Question(scanner.nextLine()),
+                        new Image("file:topics/" + path + "/"+i+".PNG"));
+                i++;
             }
             flashcards.addToQueue();
             showCard(0);
@@ -145,6 +159,8 @@ public class Controller implements Initializable {
                 showCard(1); break;
             case R:
                 toggleReviewMode(); break;
+            case S:
+                skipCard(); break;
         }
     }
 
@@ -154,21 +170,38 @@ public class Controller implements Initializable {
     }
 
     private void showCard(int i) {
-        question.setText(flashcards.getNextQuestion(i));
+        Card<Image> card;
+        int j = 0;
+        do {
+            card = flashcards.getNextCard(i);
+            if (i == 0) i = 1;
+            j++;
+        } while ((flashcards.isFiltered(card.question.type) || card.skip) && j < flashcards.getSize());
+        question.setText(flashcards.getCurrentCard() + 1 + ". " + card.question.toString());
         answerShown = true;
         flip();
-        answer.setImage(flashcards.getNextAnswer(i));
+        answer.setImage(card.answer);
     }
 
     @FXML
     void toggleReviewMode() {
-        if (flashcards.toggleReview()) {
-            review.setText("On");
-            review.setId("on");
-        } else {
-            review.setText("Off");
-            review.setId("off");
-        }
+        toggleButton(flashcards.toggleReview(), review);
+    }
+
+    private void toggleButton(QuestionType type, Button button) {
+        toggleButton(flashcards.toggleType(type), button);
+    }
+
+    private void toggleButton(boolean b, Button button) {
+        if (b)
+            changeMode(button, "on");
+        else
+            changeMode(button, "off");
+    }
+
+    private void changeMode(Button button, String mode) {
+        button.setText(mode);
+        button.setId(mode);
     }
 
 }

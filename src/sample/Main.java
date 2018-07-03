@@ -7,6 +7,10 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
 public class Main extends Application {
 
     @Override
@@ -23,6 +27,10 @@ public class Main extends Application {
         );
         primaryStage.getScene().getStylesheets().add("/stylesheet.css");
         primaryStage.show();
+
+
+//        EntityManagerFactory emf = Persistence.createEntityManagerFactory("FlashcardsPU");
+//        EntityManager em = emf.createEntityManager();
     }
 
     public static void main(String[] args) {

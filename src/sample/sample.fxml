@@ -15,14 +15,32 @@
             <HBox fx:id = "topics" />
             <HBox fx:id = "subtopics" />
         </VBox>
-        <Label fx:id = "question"/>
-        <VBox fx:id="box" prefHeight="450" prefWidth="800" maxWidth="800" maxHeight="450" minHeight="450" minWidth="800">
+        <Label fx:id = "question" wrapText="true" maxWidth="800"/>
+        <VBox fx:id="box" prefHeight="500" prefWidth="800" maxWidth="800" maxHeight="500" minHeight="500" minWidth="800">
             <ImageView fx:id="answer"/>
         </VBox>
-        <HBox alignment="center">
-            <Button text="Review Mode: " id = "off"/>
-            <Button fx:id="review"/>
+        <Button fx:id="skipButton" id="on" text="skip this card"/>
+        <HBox alignment="center" spacing="5">
+            <HBox alignment="center">
+                <Button text="Review Mode: " id = "off"/>
+                <Button fx:id="review" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Button text="random mode: " id = "off"/>
+                <Button fx:id="randomButton" id="off" text = "off"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="definitions: " id = "off"/>
+                <Button fx:id="definitions" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="theorems: " id = "off"/>
+                <Button fx:id="theorems" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="Proofs: " id = "off"/>
+                <Button fx:id="proofs" id="on" text = "on"/>
+            </HBox>
         </HBox>
     </VBox>
-
 </GridPane>

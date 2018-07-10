@@ -39,3 +39,8 @@
     -fx-max-width: 30px;
     -fx-max-height: 30px;
 }
+
+#scrollPane {
+    -fx-background: white;
+    -fx-border-color: white;
+}

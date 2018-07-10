@@ -1,7 +1,7 @@
 define an euclidean domain
 give an example of an euclidean domain
 state theorem about divisibility and phi
-state theorem about divisibility and phi
+prove theorem about divisibility and phi
 state theorem about extended euclidean algorithm
 state theorem about irreducable elements in Euclidean domain
 prove theorem about irreducable elements in Euclidean domain

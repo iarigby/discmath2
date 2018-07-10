@@ -6,8 +6,15 @@ package sample;
 public enum Subtopic {
     //graphs
     BASIC_DEFINITIONS("Basic Definitions"),
+    ISOMORPHIC_GRAPHS("Isomorphic graphs"),
+    SUBGRAPHS("Subgraphs"),
     TREES("Trees"),
     SPECIAL_WALKS("Special Walks"),
+
+    //polynomials
+    //definitions
+    EUCLIDEAN_DIVISION("Euclidean Division"),
+    ROOTS_OF_POLYNOMIAL("Roots of polynomial"),
 
     //groups
     DEFINITIONS("Definitions"),
@@ -26,7 +33,8 @@ public enum Subtopic {
     INTRO("Introduction to Information Theory"),
     SOURCE_CODING("Source Coding"),
     OPTIMAL_CODES("Optimal codes"),
-    ERROR_DETECTION_CORRECTION("Error Detection/Correction")
+    ERROR_DETECTION_CORRECTION("Error Detection/Correction"),
+    LINEAR_CODE("Linear Code")
     ;
 
     private String name;

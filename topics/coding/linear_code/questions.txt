@@ -1,0 +1,30 @@
+Define linear code
+Define notation for linear code
+give remarks about singleton bound for the linear code
+define code weight
+Define weight as distance from the 0 vector
+State theorem about code weight and code distance for linear codes
+Prove theorem about code weight and code distance for linear codes
+Define a generator matrix
+Define a check matrix
+give remark about check/generator matrix
+define systematic code
+how do we decode systematic code?
+Define a generator matrix for systematic codes
+state theorem about error check matrix of systematic codes
+prove theorem about error check matrix of systematic codes
+state theorem about columns of error check matrices and weights
+prove theorem about columns of error check matrices and weights
+state corollary of theorem about columns of error check matrices and weights
+define syndrome
+define error vector
+state theorem about syndrome of error vectors
+prove theorem about syndrome of error vectors
+Define coset
+state theorem about syndromes within a coset
+define a coset leader
+describe syndrome decoding
+state theorem: syndrome decoding is minimal distance decoding
+prove theorem: syndrome decoding is minimal distance decoding
+define hamming code
+define cyclic code

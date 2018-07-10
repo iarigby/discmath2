@@ -1,0 +1,11 @@
+Define an algebraic derivative
+state properties of algebraic derivative
+state theorem about divisors of the derivative
+prove theorem about divisors of the derivative
+State theorem about Squarefree polynomials
+prove theorem about Squarefree polynomials
+give remark about squarefree polynomials
+define multiple roots
+state theorem about multiplicity of roots of the derivative
+prove theorem about multiplicity of roots of the derivative
+give example of root with multiplicity more than n-1 in f'

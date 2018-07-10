@@ -1,0 +1,18 @@
+Define the set of all functions
+Define a set of infinite sequences
+Define operations on sequences over rings
+Define formal power series
+Define a ring of polynomials
+State theorem about commutativity of R[x]
+Prove theorem about commutativity of R[x]
+State theorem about identity in R[x]
+Prove theorem about identity in R[x]
+State theorem about zero divisors
+Prove theorem about zero divisors
+Define terms, coefficients and degree
+Define a zero polynomial
+Define constant and linear polynomials, monomials
+state theorem about the connection between the degree and operations
+prove theorem about the connection between the degree and operations
+Define a polynomial function
+give an example of a difference between a polynomial and polynomial function

@@ -28,6 +28,9 @@ public class Controller implements Initializable {
     private Button randomButton, skipButton, review, definitions, theorems, proofs;
 
     @FXML
+    private Button previous, next;
+
+    @FXML
     private VBox box;
 
     @FXML
@@ -57,8 +60,12 @@ public class Controller implements Initializable {
         review.setOnAction(e -> toggleReviewMode());
         skipButton.setOnAction(e -> skipCard());
         randomButton.setOnAction(e -> toggleButton(flashcards.toggleRandom(), randomButton));
+        next.setOnAction(e -> showCard(-    1));
+        previous.setOnAction(e -> showCard(1));
         addTopics();
         toggleReviewMode();
+        ((Button)topics.getChildren().get(0)).fire();
+        ((Button)subtopics.getChildren().get(0)).fire();
     }
 
 
@@ -151,8 +158,10 @@ public class Controller implements Initializable {
 
     void doSomething(KeyCode code) {
         switch (code) {
-            case SPACE: case UP: case DOWN:
+            case SPACE:  case DOWN:
                 flip(); break;
+            case UP:
+                skipCard(); break;
             case LEFT:
                 showCard(-1); break;
             case RIGHT:

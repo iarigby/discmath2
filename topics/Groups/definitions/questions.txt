@@ -13,7 +13,7 @@ give examples of structure preserving maps
 state theorem about composition of homomorphisms
 prove the theorem about composition of homomorphisms
 State and prove the theorem about inverse of homomorphisms
-Give statements for semigroup
+Give statements for semigroup and homomophism
 Prove statements about semigroup
 State equivalent definitions of a group
 prove equivalent definitions of a group

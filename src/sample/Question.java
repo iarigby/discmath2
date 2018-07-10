@@ -20,7 +20,7 @@ public class Question {
 
     Question(String question) {
         this.question = question;
-        if (question.toLowerCase().contains("prove")) {
+        if (question.toLowerCase().contains("prove") || question.toLowerCase().contains("proof")) {
             type = PROOF;
         } else if (question.toLowerCase().contains("define")) {
             type = DEFINITION;

@@ -1,0 +1,17 @@
+State theorem about Euclidean division
+State preliminaries for proof of theorem about Euclidean division
+prove existence for Euclidean division
+prove uniqueness for Euclidean division
+give remarks for Euclidean division
+state theorem about separation of root terms
+prove theorem about separation of root terms
+state theorem about number of roots in a polynomial
+prove theorem about number of roots in a polynomial
+state theorem about sufficient condition for equality of polynomials
+prove theorem about sufficient condition for equality of polynomials
+state theorem about number of polynomial functions
+prove theorem about number of polynomial functions
+state theorem about polynomials over fields
+prove theorem about polynomials over fields
+define pseudo division
+define Horner scheme

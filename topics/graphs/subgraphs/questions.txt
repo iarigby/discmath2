@@ -8,7 +8,9 @@ Define a trail
 Define paths and cycles
 Define a distance
 define a diameter
-State theorems about connection between walks/paths/trails/cycles
+State theorems about connection between walks/paths
+State theorems about connection between trails/cycles
 state a theorem about Walk to path
 Prove the theorem about walk to path
+State the theorem about closed trails and disjoint cycles
 Prove that every closed trail of at least one length is the union of cycles with disjoint edges

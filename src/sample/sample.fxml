@@ -16,9 +16,13 @@
             <HBox fx:id = "subtopics" />
         </VBox>
         <Label fx:id = "question" wrapText="true" maxWidth="800"/>
-        <VBox fx:id="box" prefHeight="500" prefWidth="800" maxWidth="800" maxHeight="500" minHeight="500" minWidth="800">
-            <ImageView fx:id="answer"/>
-        </VBox>
+        <HBox alignment="CENTER">
+            <Button fx:id="previous" visible="false" text="ᐳ"/>
+            <VBox fx:id="box" prefHeight="500" prefWidth="800" maxWidth="800" maxHeight="500" minHeight="500" minWidth="800">
+                <ImageView fx:id="answer"/>
+            </VBox>
+            <Button fx:id="next" visible="false" text="ᐸ"/>
+        </HBox>
         <Button fx:id="skipButton" id="on" text="skip this card"/>
         <HBox alignment="center" spacing="5">
             <HBox alignment="center">

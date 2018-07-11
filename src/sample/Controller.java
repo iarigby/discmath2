@@ -107,6 +107,7 @@ public class Controller implements Initializable {
                     currentTopic = button;
                     this.topic = topic;
                     changeTopic(topic);
+                    ((Button)subtopics.getChildren().get(0)).fire();
                     }
                 }
             );
@@ -173,7 +174,7 @@ public class Controller implements Initializable {
             Scanner scanner = new Scanner(new File("topics/" + path + "/questions.txt"));
             int i = 1;
             while (scanner.hasNext()) {
-                flashcards.addCard(
+                flashcards.addCard(i,
                         new Question(scanner.nextLine()),
                         new Image("file:topics/" + path + "/"+i+".PNG"));
                 i++;
@@ -219,7 +220,7 @@ public class Controller implements Initializable {
             if (i == 0) i = 1;
             j++;
         } while ((flashcards.isFiltered(card.question.type) || card.skip) && j < flashcards.getSize());
-        question.setText(flashcards.getCurrentCard() + 1 + ". " + card.question.toString());
+        question.setText(card.toString());
         answerShown = true;
         flip();
         answer.setImage((Image)card.answer);

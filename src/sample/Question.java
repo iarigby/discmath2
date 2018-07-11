@@ -18,7 +18,7 @@ public class Question {
             type = PROOF;
         } else if (question.toLowerCase().contains("define")) {
             type = DEFINITION;
-        } else if (question.toLowerCase().contains("theorem")) {
+        } else if (question.toLowerCase().contains("theorem") || question.toLowerCase().contains("corollary") || question.toLowerCase().contains("corollaries")) {
             type = THEOREM;
         } else {
             type = OTHER;

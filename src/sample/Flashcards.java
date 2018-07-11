@@ -6,7 +6,7 @@ import java.util.Random;
 class Flashcards<AnswerType> {
 
 
-    private static final int REVIEW_NUMBER = 2;
+    private static final int REVIEW_NUMBER = 3;
 
     private ArrayList<Card<AnswerType>> cards = new ArrayList<>();
     private ArrayList<Integer> queue = new ArrayList<>();
@@ -43,8 +43,7 @@ class Flashcards<AnswerType> {
                 currentCard = getIndex(i);
                 reviewLeft = 0;
                 queue.add(currentCard);
-                for (int k = 1; k < REVIEW_NUMBER
-                        && currentCard - k >= 0; k++) {
+                for (int k = REVIEW_NUMBER; k >= 0; k--) {
                     queue.add(currentCard - k);
                     reviewLeft++;
                 }
@@ -92,8 +91,8 @@ class Flashcards<AnswerType> {
         reviewMode = true;
     }
 
-    void addCard(Question question, AnswerType answer) {
-        cards.add(new Card<>(question, answer));
+    void addCard(int i, Question question, AnswerType answer) {
+        cards.add(new Card<>(i, question, answer));
     }
 
     //todo this smells

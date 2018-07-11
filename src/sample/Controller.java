@@ -15,6 +15,16 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
+class WrapInt {
+    int value;
+
+    WrapInt(int v) {
+        value = v;
+    }
+    void inc() {
+        value++;
+    }
+}
 public class Controller implements Initializable {
 
     @FXML
@@ -76,9 +86,10 @@ public class Controller implements Initializable {
         allTopics.setId("on");
         reset();
         currentTopic = allTopics;
+        WrapInt j = new WrapInt(1);
         for (Topic topic : Topic.values()) {
             for (Subtopic subtopic : topic.getSubtopics()) {
-                updateCards(topic.name() + "/" + subtopic.name(), false);
+                updateCards(topic.name() + "/" + subtopic.name(), false, j);
             }
         }
     }
@@ -139,8 +150,9 @@ public class Controller implements Initializable {
             if (currentSubtopic != null) currentSubtopic.setId("off");
             currentSubtopic = all;
             reset();
+            WrapInt j = new WrapInt(1);
             for (Subtopic subtopic : topic.getSubtopics()) {
-                updateCards(topic.name() + "/" + subtopic.name(), false);
+                updateCards(topic.name() + "/" + subtopic.name(), false, j);
             }
             currentSubtopic.setId("on");
         });
@@ -166,7 +178,7 @@ public class Controller implements Initializable {
         toggleReviewMode();
     }
 
-    private void updateCards(String path, boolean reset) {
+    private void updateCards(String path, boolean reset, WrapInt j) {
         if (reset) {
             reset();
         }
@@ -174,9 +186,10 @@ public class Controller implements Initializable {
             Scanner scanner = new Scanner(new File("topics/" + path + "/questions.txt"));
             int i = 1;
             while (scanner.hasNext()) {
-                flashcards.addCard(i,
+                flashcards.addCard(j.value,
                         new Question(scanner.nextLine()),
                         new Image("file:topics/" + path + "/"+i+".PNG"));
+                j.inc();
                 i++;
             }
             flashcards.addToQueue();
@@ -187,7 +200,7 @@ public class Controller implements Initializable {
     }
 
     private void updateCards(String path) {
-        updateCards(path, true);
+        updateCards(path, true, new WrapInt(1));
     }
 
     void doSomething(KeyCode code) {

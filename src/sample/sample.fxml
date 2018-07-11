@@ -11,6 +11,7 @@
         <VBox id="box">
             <HBox id="box">
                 <Label id="topicselector" text="Select topic/subtopic"/>
+                <Button fx:id="allTopics" text="All Cards"/>
                 <!--<Button fx:id="refresh" id="on" text="Refresh"/>-->
             </HBox>
             <HBox fx:id = "topics" />
@@ -20,7 +21,7 @@
         <HBox alignment="CENTER">
             <Button fx:id="previous" visible="false" text="ᐳ"/>
             <VBox fx:id="box" prefHeight="500" prefWidth="850">
-                <ScrollPane id="scrollPane">
+                <ScrollPane>
                     <ImageView fx:id="answer" fitWidth="800"/>
                 </ScrollPane>
             </VBox>
@@ -47,6 +48,10 @@
             <HBox alignment="center">
                 <Button text="Proofs: " id = "off"/>
                 <Button fx:id="proofs" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="Other: " id = "off"/>
+                <Button fx:id="other" id="on" text = "on"/>
             </HBox>
         </HBox>
     </VBox>

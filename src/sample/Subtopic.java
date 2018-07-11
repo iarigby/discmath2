@@ -2,7 +2,7 @@ package sample;
 
 public enum Subtopic {
     //graphs
-    BASIC_DEFINITIONS("Basic Definitions"),
+    GRAPHS_DEFINITIONS("Basic Definitions"),
     ISOMORPHIC_GRAPHS("Isomorphic graphs"),
     SUBGRAPHS("Subgraphs"),
     TREES("Trees"),
@@ -10,7 +10,7 @@ public enum Subtopic {
     PLANAR_GRAPHS("Planar Graphs"),
 
     //digraphs
-    //definitions
+    DIGRAPHS_DEFINITIONS("Basic Definitions"),
     GRAPH_REPRESENTATIONS("Representations of graphs"),
     DIRECTED_SUBGRAPHS("Directed Subgraphs"),
     DIRECTED_TREES("Directed Trees"),
@@ -18,6 +18,7 @@ public enum Subtopic {
 
     //polynomials
     //definitions
+    POLYNOMIALS_DEFINITIONS("Basic Definitions"),
     EUCLIDEAN_DIVISION("Euclidean Division"),
     ROOTS_OF_POLYNOMIAL("Roots of polynomial"),
 

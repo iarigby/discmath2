@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -24,7 +25,7 @@ public class Controller implements Initializable {
     private Label question;
 
     @FXML
-    private Button randomButton, skipButton, review, definitions, theorems, proofs;
+    private Button allTopics, randomButton, skipButton, review, definitions, theorems, proofs, other;
 
     @FXML
     private Button previous, next;
@@ -53,9 +54,11 @@ public class Controller implements Initializable {
     public void initialize(URL url, ResourceBundle arg1) {
         flashcards = new Flashcards<>();
         //refresh.setOnAction(e -> refresh());
+        allTopics.setOnAction(e -> getAllCards());
         definitions.setOnAction(e -> toggleButton(QuestionType.DEFINITION, definitions));
         theorems.setOnAction(e -> toggleButton(QuestionType.THEOREM, theorems));
         proofs.setOnAction(e -> toggleButton(QuestionType.PROOF, proofs));
+        other.setOnAction(e -> toggleButton(QuestionType.OTHER, other));
         review.setOnAction(e -> toggleReviewMode());
         skipButton.setOnAction(e -> skipCard());
         randomButton.setOnAction(e -> toggleButton(flashcards.toggleRandom(), randomButton));
@@ -68,6 +71,18 @@ public class Controller implements Initializable {
     }
 
 
+    private void getAllCards() {
+        reset();
+        currentTopic.setId("off");
+        currentSubtopic.setId("off");
+        allTopics.setId("on");
+        currentTopic = allTopics;
+        for (Topic topic : Topic.values()) {
+            for (Subtopic subtopic : topic.getSubtopics()) {
+                updateCards(topic.name() + "/" + subtopic.name(), false);
+            }
+        }
+    }
 
     private void skipCard() {
         flashcards.skipCurrent();
@@ -137,8 +152,10 @@ public class Controller implements Initializable {
         toggleReviewMode();
     }
 
-    private void updateCards(String path) {
-        reset();
+    private void updateCards(String path, boolean reset) {
+        if (reset) {
+            reset();
+        }
         try {
             Scanner scanner = new Scanner(new File("topics/" + path + "/questions.txt"));
             int i = 1;
@@ -153,6 +170,10 @@ public class Controller implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void updateCards(String path) {
+        updateCards(path, true);
     }
 
     void doSomething(KeyCode code) {

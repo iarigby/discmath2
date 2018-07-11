@@ -12,7 +12,7 @@
     -fx-font-family: sans-serif;
 }
 
-#off {
+#off, #allTopics {
     -fx-background-color: aquamarine;
     -fx-text-fill: indigo;
 }

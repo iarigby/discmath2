@@ -3,7 +3,6 @@ package sample;
 import java.util.ArrayList;
 import java.util.Random;
 
-
 class Flashcards<AnswerType> {
 
 
@@ -34,6 +33,7 @@ class Flashcards<AnswerType> {
     void skipCurrent() {
         cards.get(currentCard).skip = true;
     }
+
     private int getNextIndex(int i) {
         if (randomMode) {
             i = random.nextInt(getSize());

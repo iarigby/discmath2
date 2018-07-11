@@ -1,11 +1,11 @@
 Define expected code-word length
 define optimal code
 define existence of optimal codes
-prove exsitence of optimal codes
-define Shannon's source coding theorem
+prove existence of optimal codes
+state Shannon's source coding theorem
 prove Shannon's source coding theorem
-define thereom about existence of Shannon's code
-prove the thereom about existence of Shannon's code
+state theorem about existence of Shannon's code
+prove the theorem about existence of Shannon's code
 describe constructing an optimal code
 state theorem about huffman code being optimal
 define a code tree

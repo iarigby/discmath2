@@ -2,15 +2,16 @@ Define connectedness
 Define components
 State equivalent definition of a connected graph
 Define a tree
-state Equivalent definitions of trees
+state theorem about Equivalent definitions of trees
 Prove 1 <=> 2 <=> 3 from the equivalent definitions of trees
 Prove 1 <=> 4 from the equivalent definitions of trees
-State Theorem about two vertices with degree one
-Prove the theorem about two vertices with degree one
+State Theorem about vertices with degree one
+Prove the theorem about vertices with degree one
 State theorem with alternative definitions of trees
 Prove theorem with alternative definitions of trees
 Define a spanning tree
-State and prove the theorem about the existence of spanning trees
+State the theorem about the existence of spanning trees
+Prove the theorem about the existence of spanning trees
 State the theorem about the number of cycles
 Prove the theorem about the number of cycles
 Define separating two vertices (and remark)

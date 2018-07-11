@@ -6,7 +6,7 @@ define a zero ring
 define ring of square zeros
 define structure/operation preserving functions
 list names of structure preserving maps
-list statements about homomorphic image of a ring
+state theorem of statements about homomorphic image of a ring
 prove statements about homomorphic image of a ring
 state theorem about additive order of elements
 prove theorem about additive order of elements

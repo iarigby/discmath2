@@ -2,3 +2,17 @@ Rings
 (Extended Euclidean algorithm) let R be a Euclidean domain. a->an
 
 proof of irreducible elements in Euclidean domain could be easier
+
+
+Groups
+as see in previous theorem
+as seen in previous theorem
+
+proof of structure of cyclic groups
+can't we start by separating |G| = 8 and |G| = n
+
+proof of subgroup of a cyclic group theorem sentence starts with an if and there is no then ;(
+
+filed field
+
+definition of field should be earlier

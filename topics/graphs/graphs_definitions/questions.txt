@@ -12,4 +12,5 @@ Define a degree of a vertex
 Define regular, n-regular graphs
 State the Equivalent definition of isolated vertices
 Define Even and Odd vertices
-State and prove the theorem about the number of edges and the sum of degrees, state the corollary
+State the theorem about the number of edges and the sum of degrees
+Prove the theorem about the number of edges and the sum of degrees, state the corollary

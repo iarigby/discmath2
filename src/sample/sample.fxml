@@ -21,7 +21,7 @@
         <HBox alignment="CENTER">
             <Button fx:id="previous" visible="false" text="ᐳ"/>
             <VBox fx:id="box" prefHeight="500" prefWidth="850">
-                <ScrollPane>
+                <ScrollPane id="scrollPane">
                     <ImageView fx:id="answer" fitWidth="800"/>
                 </ScrollPane>
             </VBox>

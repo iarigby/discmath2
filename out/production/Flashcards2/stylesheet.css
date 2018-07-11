@@ -1,0 +1,46 @@
+#box {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+#topics, #subtopics {
+    -fx-spacing: 15;
+}
+#question {
+    -fx-font-size: 25;
+    -fx-font-family: sans-serif;
+}
+
+#off {
+    -fx-background-color: aquamarine;
+    -fx-text-fill: indigo;
+}
+#on {
+    -fx-background-color: indigo;
+    -fx-text-fill: aquamarine;
+}
+
+#topics {
+
+}
+
+#topicSelector {
+    -fx-text-fill: indigo;
+    -fx-font-weight: bold;
+}
+
+#previous, #next {
+    -fx-background-radius: 30px;
+    -fx-background-color: aquamarine;
+    -fx-text-fill: indigo;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+    -fx-max-width: 30px;
+    -fx-max-height: 30px;
+}
+
+#scrollPane {
+    -fx-background: white;
+    -fx-border-color: white;
+}

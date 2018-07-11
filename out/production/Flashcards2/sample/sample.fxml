@@ -1,0 +1,53 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ScrollPane?>
+<GridPane id="box"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <VBox id="box">
+        <VBox id="box">
+            <HBox id="box">
+                <Label id="topicselector" text="Select topic/subtopic"/>
+                <!--<Button fx:id="refresh" id="on" text="Refresh"/>-->
+            </HBox>
+            <HBox fx:id = "topics" />
+            <HBox fx:id = "subtopics" />
+        </VBox>
+        <Label fx:id = "question" wrapText="true" maxWidth="800"/>
+        <HBox alignment="CENTER">
+            <Button fx:id="previous" visible="false" text="ᐳ"/>
+            <VBox fx:id="box" prefHeight="500" prefWidth="850">
+                <ScrollPane id="scrollPane">
+                    <ImageView fx:id="answer" fitWidth="800"/>
+                </ScrollPane>
+            </VBox>
+            <Button fx:id="next" visible="false" text="ᐸ"/>
+        </HBox>
+        <Button fx:id="skipButton" id="on" text="skip this card"/>
+        <HBox alignment="center" spacing="5">
+            <HBox alignment="center">
+                <Button text="Review Mode: " id = "off"/>
+                <Button fx:id="review" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Button text="random mode: " id = "off"/>
+                <Button fx:id="randomButton" id="off" text = "off"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="definitions: " id = "off"/>
+                <Button fx:id="definitions" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="theorems: " id = "off"/>
+                <Button fx:id="theorems" id="on" text = "on"/>
+            </HBox>
+            <HBox alignment="center">
+                <Button text="Proofs: " id = "off"/>
+                <Button fx:id="proofs" id="on" text = "on"/>
+            </HBox>
+        </HBox>
+    </VBox>
+</GridPane>

@@ -8,6 +8,7 @@ Prove 1 <=> 4 from the equivalent definitions of trees
 State Theorem about two vertices with degree one
 Prove the theorem about two vertices with degree one
 State theorem with alternative definitions of trees
+Prove theorem with alternative definitions of trees
 Define a spanning tree
 State and prove the theorem about the existence of spanning trees
 State the theorem about the number of cycles

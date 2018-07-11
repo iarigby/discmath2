@@ -6,5 +6,6 @@ Prove the theorem about Decomposition of finite connected graphs for s > 0
 Define a Hamilton path
 Define a Hamiltonian cycle, Hamiltonian graph
 State Ore's theorem
+Prove Ore's theorem
 State Dirac's theorem
 Prove Dirac's theorem

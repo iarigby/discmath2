@@ -4,6 +4,7 @@ give the corollary about alternative formulation of a generated subgroup
 prove the corollary about alternative formulation of a generated subgroup
 define the order of a group
 state the theorem about structure of cyclic groups
+prove the theorem about structure of cyclic groups
 state the remark about structure of cyclic groups
 state the theorem about subgroup of a cyclic group
 prove the theorem about subgroup of a cyclic group

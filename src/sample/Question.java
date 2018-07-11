@@ -1,12 +1,6 @@
 package sample;
 
-import java.util.ArrayList;
-
 import static sample.QuestionType.*;
-
-enum type {
-
-}
 
 enum QuestionType {
     DEFINITION, THEOREM, PROOF, OTHER

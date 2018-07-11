@@ -1,8 +1,5 @@
 package sample;
 
-/**
- * Created by ia on 2018. 06. 25..
- */
 public enum Subtopic {
     //graphs
     BASIC_DEFINITIONS("Basic Definitions"),

@@ -2,9 +2,6 @@ package sample;
 
 import static sample.Subtopic.*;
 
-/**
- * Created by ia on 2018. 06. 25..
- */
 public enum Topic {
     GRAPHS(new Subtopic[]{BASIC_DEFINITIONS, ISOMORPHIC_GRAPHS, SUBGRAPHS, TREES, SPECIAL_WALKS, PLANAR_GRAPHS}),
     DIGRAPHS(new Subtopic[]{BASIC_DEFINITIONS, DIRECTED_SUBGRAPHS, DIRECTED_TREES, GRAPH_REPRESENTATIONS}),

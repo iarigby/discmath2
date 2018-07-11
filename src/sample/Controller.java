@@ -12,7 +12,6 @@ import javafx.scene.layout.VBox;
 
 import java.io.File;
 import java.net.URL;
-import java.util.Random;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
@@ -179,7 +178,7 @@ public class Controller implements Initializable {
     }
 
     private void showCard(int i) {
-        Card<Image> card;
+        Card card;
         int j = 0;
         do {
             card = flashcards.getNextCard(i);
@@ -189,7 +188,7 @@ public class Controller implements Initializable {
         question.setText(flashcards.getCurrentCard() + 1 + ". " + card.question.toString());
         answerShown = true;
         flip();
-        answer.setImage(card.answer);
+        answer.setImage((Image)card.answer);
     }
 
     @FXML

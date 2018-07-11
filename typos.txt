@@ -1,2 +1,4 @@
 Rings
 (Extended Euclidean algorithm) let R be a Euclidean domain. a->an
+
+proof of irreducible elements in Euclidean domain could be easier

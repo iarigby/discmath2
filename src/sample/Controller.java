@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -72,10 +71,10 @@ public class Controller implements Initializable {
 
 
     private void getAllCards() {
-        reset();
         currentTopic.setId("off");
         currentSubtopic.setId("off");
         allTopics.setId("on");
+        reset();
         currentTopic = allTopics;
         for (Topic topic : Topic.values()) {
             for (Subtopic subtopic : topic.getSubtopics()) {
@@ -101,9 +100,7 @@ public class Controller implements Initializable {
 
     private void addTopics() {
         for (Topic topic : Topic.values()) {
-            Button button = new Button();
-            button.setText(topic.name());
-            button.setId("off");
+            Button button = newButton(topic.name());
             button.setOnAction( e -> {
                 if (currentTopic != button) {
                     if (currentTopic != null) currentTopic.setId("off");
@@ -115,6 +112,13 @@ public class Controller implements Initializable {
             );
             topics.getChildren().add(button);
         }
+    }
+
+    private Button newButton(String name) {
+        Button button = new Button();
+        button.setText(name);
+        button.setId("off");
+        return button;
     }
 
     private void changeTopic(Topic topic) {
@@ -129,10 +133,19 @@ public class Controller implements Initializable {
 
     private void addSubTopics(Topic topic) {
         subtopics.getChildren().clear();
+        Button all = newButton("All");
+        all.setOnAction(e -> {
+            if (currentSubtopic != null) currentSubtopic.setId("off");
+            currentSubtopic = all;
+            reset();
+            for (Subtopic subtopic : topic.getSubtopics()) {
+                updateCards(topic.name() + "/" + subtopic.name(), false);
+            }
+            currentSubtopic.setId("on");
+        });
+        subtopics.getChildren().add(all);
         for (Subtopic subtopic : topic.getSubtopics()) {
-            Button button = new Button();
-            button.setText(subtopic.getName());
-            button.setId("off");
+            Button button = newButton(subtopic.getName());
             button.setOnAction( e -> {
                     if (currentSubtopic != button) {
                         if (currentSubtopic != null) currentSubtopic.setId("off");

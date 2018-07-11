@@ -1,0 +1,6 @@
+Define directed subgraphs, saturated subgraph, complement
+Define deleting edges and vertices from graphs
+define a closed/open directed walk
+define a closed/open directed trail
+define a directed path/cycle
+define strong connectivity, strong component

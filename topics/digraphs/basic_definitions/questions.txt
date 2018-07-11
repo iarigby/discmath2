@@ -1,0 +1,8 @@
+Define a directed graph
+Define transpose, strictly parallel
+Define E+s and E-s
+define the outdegree of the vertex
+define the outdegree of the vertex
+state connection between indegrees and outdegrees
+define isomorphism for directed graphs
+state some special digraphs

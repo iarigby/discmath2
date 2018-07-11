@@ -10,6 +10,14 @@ public enum Subtopic {
     SUBGRAPHS("Subgraphs"),
     TREES("Trees"),
     SPECIAL_WALKS("Special Walks"),
+    PLANAR_GRAPHS("Planar Graphs"),
+
+    //digraphs
+    //definitions
+    GRAPH_REPRESENTATIONS("Representations of graphs"),
+    DIRECTED_SUBGRAPHS("Directed Subgraphs"),
+    DIRECTED_TREES("Directed Trees"),
+
 
     //polynomials
     //definitions

@@ -1,0 +1,2 @@
+Rings
+(Extended Euclidean algorithm) let R be a Euclidean domain. a->an

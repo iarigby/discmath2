@@ -1,0 +1,4 @@
+define list representation
+define matrix representation
+define incidence matrix
+define adjacency matrix

@@ -1,0 +1,11 @@
+Define a directed tree
+define a depth of vertex
+define the height of the tree
+define parent/child/sibling
+define leaves
+define a directed subtree
+define a rooted tree
+define a q-ary tree
+define a binary tree
+state Dijkstra's algorithm theorem
+prove Dijkstra's algorithm theorem

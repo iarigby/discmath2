@@ -134,8 +134,8 @@ public class Controller implements Initializable {
     }
 
     private void changeTopic(Topic topic) {
-        addSubTopics(topic);
         currentTopic.setId("on");
+        addSubTopics(topic);
     }
 
     private void changeSubTopic(Subtopic subtopic) {
